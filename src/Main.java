@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1 () {
@@ -21,6 +22,12 @@ public class Main {
         System.out.println("Задача 3");
         for (int i = 0; i <= 17; i+= 2) {
             System.out.println("Четное число " + i);
+        }
+    }
+    public static void task4 () {
+        System.out.println("Задача 4");
+        for (int i = 10; i >= -10; i-=1) {
+            System.out.println("Число " +i);
         }
     }
 }
